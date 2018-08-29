@@ -1,0 +1,45 @@
+body{
+    background-color: #F7F7F7;
+}
+
+p{
+    font-size: 25px;
+    line-height: 25px;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+}
+
+ul{
+    text-align-all: center;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+h1{
+    color: darkgreen;
+    font-family: "Georgia";
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Georgia";
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    float: left;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    width: 325px;
+}
+
