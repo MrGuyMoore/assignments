@@ -1,10 +1,11 @@
 function printHi() {
     console.log("Hello,Class")
 }
-    printHi();
+
+printHi();
 var print = function () {
     console.log("Hello,Class")
 };
-    print();
+print();
 
 /// Use the function to call the console.log to print when writing this way.

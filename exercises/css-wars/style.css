@@ -1,23 +1,23 @@
-body{
+body {
     background-color: #111111;
 }
 
-h1{
+h1 {
     color: #E2E80F;
 }
 
-p{
+p {
     color: #eeeeee;
     line-height: 1.4;
 }
 
-.credits:hover{
+.credits:hover {
     cursor: pointer;
     color: cornflowerblue;
     text-decoration: underline;
 }
 
-#film-description{
+#film-description {
     font-size: smaller;
     font-style: italic;
 }
