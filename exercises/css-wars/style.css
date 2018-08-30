@@ -1,0 +1,22 @@
+body{
+    background-color: #111111;
+}
+
+h1{
+    color: #E2E80F;
+}
+
+p{
+    color: #eeeeee;
+}
+
+.credits:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+#film-description{
+    font-size: smaller;
+    font-style: italic;
+}
