@@ -58,6 +58,6 @@ if (1 == "1"){
 
 //Write an if statement that prints "yes" if 1 is less than or equal to 2 and 2 is equal to 4
 
-if (1 <= 2 && 2 === 4){{
-    console.log('Yes')
+if (1 <= 2 && 2 === 4){
+    console.log('Yes')}
 

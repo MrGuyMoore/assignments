@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1500px;
+    margin: auto;
+    padding: 100px 0 100px 0;
+}
+
+*{
+    font-size: 0;
+    box-sizing: border-box;
+    border: 5px white solid;
+}
+.pinkbox{
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F5C6D6;
+}
+.hotpinkbox{
+      display: inline-block;
+      height: 140px;
+      width: 25%;
+      background-color: #EE2E84;
+      padding: 0 10px 0 10px;
+  }
+.bluebox{
+      display: inline-block;
+      height: 140px;
+      width: 50%;
+      background-color: #85CFD8;
+      padding: 0 10px 0 10px;
+  }
+
+.greenbox{
+    display: inline-block;
+    height: 140px;
+    width: 75%;
+    background-color: #8DC63F;
+    padding: 0 10px 0 10px;
+}
+
+.orangebox{
+    display: inline-block;
+    height: 140px;
+    width: 25%;
+    background-color: #E76E34;
+    padding: 0 10px 0 10px;
+}

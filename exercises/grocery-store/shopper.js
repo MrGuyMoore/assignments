@@ -14,8 +14,9 @@ if (shopper.cash === true) {
     console.log('Please take your groceries')
 } else {
     console.log('Please provide another form of payment.')
-}
-;
+};
+
+
 
 
 
