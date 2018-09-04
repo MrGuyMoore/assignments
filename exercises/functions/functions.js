@@ -1,19 +1,20 @@
-function sum (x,y) {
-    return x + y;
-}
+// function sum (x,y) {
+//     return x + y;
+// }
+//
+// function sum(x,y,z) {
+//     var numbers = Math.max(x,y,z);
+//     return (numbers)
+// }
 
-function sum(x,y,z) {
-    var numbers = Math.max(x,y,z);
-    return (numbers)
-}
-
-function isEven(number) {
-    if (number % 2 === 0) {
-        return ('Even')
-    } else {
-        return ('Odd')
-    }
-}
+// function isEven(number) {
+//     if (number % 2 === 0) {
+//         return ('Even')
+//     } else {
+//         return ('Odd')
+//     }
+// }
+// console.log(isEven(''));
 
 function newStr(Str) {
     Str = 'Abcdefghijklmnopqrstuvwxyz';
@@ -23,3 +24,4 @@ function newStr(Str) {
         return Str.slice(13)
     }
 }
+console.log(newStr());
