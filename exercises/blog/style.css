@@ -1,0 +1,72 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8d908b;
+    position: relative;
+}
+
+header{
+    margin: 35px;
+    text-align: center;
+    float: inside;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    text-shadow: 2px 2px dimgrey;
+}
+
+/*Navigation*/
+.navbar ul{
+    background-color: grey;
+    padding: 15px  500px 15px 500px;
+    position: absolute;
+    text-align: center;
+    font-weight: lighter;
+
+}
+.navbar li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+a:hover{
+    color: white;
+}
+/*Paragraphs*/
+span{
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: 'muli', sans-serif;
+    line-height: 80%;
+    color: white;
+}
+h1{
+    margin: 120px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'muli', sans-serif;
+}
+
+/*Images*/
+
+img{
+    margin: 70px 0 0 0;
+    width: 450px;
+    height: 200px;
+    float: left;
+    padding: 15px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'muli', sans-serif;
+}
