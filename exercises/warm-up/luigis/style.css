@@ -1,0 +1,13 @@
+header{
+    font-size: 45px;
+    background: #E2E80F;
+    font-family: 'Super Mario 256', sans-serif;
+    width: 100%;
+    padding: 20px;
+    height: 8vh;
+    color: red;
+
+}
+body{
+    background: red;
+}

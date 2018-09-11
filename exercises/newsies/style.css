@@ -1,29 +1,44 @@
-.header-box{
+.header{
+    display: inline-block;
     width: 100%;
+    position: fixed;
     height: 40px;
-    background-color: #111111;
-    position: absolute;
-    display: block;
+    background-color: silver;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    font-size: 45px;
+    padding: 25px;
+    color: white;
 }
 
+.container {
+    display: block;
+    padding: 25px;
+    margin: 25px;
+    border: solid white 2px;
+    position: relative;
+    left: 89%;
+    top: 70px;
+}
 body{
     margin: 0;
     padding:0;
+    background-color: darkgray;
+    display: inline-block;
+    position: relative;
 }
-
+/*Font*/
 h1{
     font-family: 'Cookie', cursive;
     color:white;
-    font-size: 10px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-
-}
-.header {
-    font-family: 'Cookie', cursive;
-    color: white;
+    font-size: 20px;
     text-align: center;
-    font-size: 35px;
-    padding:0 0 50px 0;
+    padding: 5px;
+    margin: 25px;
+}
+/*Images*/
+
+div.speech{
+    padding: 10px;
+    float: left;
 }

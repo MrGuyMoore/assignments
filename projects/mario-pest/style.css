@@ -1,0 +1,64 @@
+/*Document Management*/
+body{
+    background: #87ceeb url("Paper_Mario_Color_Splash_Warp_Pipe.png") ;
+    height: 400px;
+    width: 1480px;
+}
+
+.pricing{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Times New Roman",sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*Text Management*/
+header{
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: white;
+    font-family: 'Gamja Flower', sans-serif;
+    border: white 4px dashed;
+    margin: 0 0 25px 0;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+.mariobaddie{
+    color: white;
+    font-size: 15px;
+    font-family: 'Abril Fatface',sans-serif;
+
+}
+
+/*Images Used*/
+
+div.baddiepic1{
+    border: white solid 4px;
+    display: flex;
+    justify-content: center;
+    border-radius: 19px;
+    padding: 25px;
+    margin: 10px;
+}
+div.baddiepic2{
+    display: flex;
+    justify-content:center;
+    border: silver solid 4px;
+    border-radius: 19px;
+    padding: 25px;
+    margin: 10px;
+ }
+div.baddiepic3{
+    display: flex;
+    justify-content:center;
+    border: gold solid 4px;
+    border-radius: 19px;
+    padding: 25px;
+    margin: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+</head>
+<body>
+<form>
+    <label for = "">First Name :</label>
+    <input name = 'firstName' type = 'text'>
+    <label for = "">Last Name :</label>
+    <input name = 'lastName' type="text">
+    <label for = "">Age: </label>
+    <input name = "age" type="number">
+    <fieldset>
+        <legend>Dietary Restrictions</legend>
+        <input type="checkbox" name ="diet" value="Pork" checked="true"><label name ="">Pork</label>
+        <input type="checkbox" name ="diet" value="Chicken"><label name ="">Chicken</label>
+        <input type="checkbox" name ="diet" value="Beef"><label name ="">Beef</label>
+        <input type="checkbox" name ="diet" value="Leaf"><label name ="">Leaf</label>
+        <input type="checkbox" name ="diet" value="BlandFood"><label name ="">Bland Food</label>
+    </fieldset>
+        <input type="radio" name = "gender" checked="true" value="Male"/><label for ="">Male</label>
+        <input type="radio" name = "gender" value="Female" /><label for ="">Female</label><br>
+
+    <label >Flights Locations</label>
+    <select name = "flights">
+        <option value="New York">New York</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Houston">Houston</option>
+    </select>
+    <button>Submit</button>
+
+</form>
+<script src="travel.js"></script>
+</body>
+</html>

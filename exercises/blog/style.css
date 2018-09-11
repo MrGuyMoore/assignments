@@ -19,17 +19,26 @@ header{
 }
 
 /*Navigation*/
-.navbar ul{
-    background-color: grey;
-    padding: 15px  500px 15px 500px;
-    position: absolute;
-    text-align: center;
-    font-weight: lighter;
 
+.navbar {
+    background-color: grey;
+    position: fixed;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    margin: 10px;
 }
-.navbar li{
-    display: inline-block;
+
+
+.navbar ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    list-style: none;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -58,14 +67,31 @@ h1{
 
 /*Images*/
 
-img{
-    margin: 70px 0 0 0;
-    width: 450px;
-    height: 200px;
+div.random{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    transform: translateX(8%);
     float: left;
+    margin: 18px;
     padding: 15px;
 }
+div.blog{
+    display: flex;
+    justify-content: left;
+    width: 30%;
+    float: left;
+    padding: 45px;
+    margin: 25px;
+}
+/*Writing*/
+
 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'muli', sans-serif;
+}
+h1{
     font-size: 20px;
     font-weight: bold;
     font-family: 'muli', sans-serif;
