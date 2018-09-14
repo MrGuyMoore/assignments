@@ -1,0 +1,13 @@
+{
+  "Appetizers & Drink Menu": {
+    "appetizers":["Cheese Sticks", "Deviled Eggs", "Coconut Shrimp", "Mushroom Bacon Bites"],
+    "drinks":["Pepsi","Coke","Diet Coke","Unsweetened Tea","Sweetened Tea"]
+  },
+  "Main Menu":{
+    "cold sandwiches":["Ham & Cheese", "Turkey & Bacon","Turkey, Avocado & Bacon"],
+    "hot sandwiches":["Grilled Cheese","French Dip","Meatball Sub","Toasted Reuben"]
+  },
+  "Desserts Menu":{
+    "desserts":["Cheese Cake","Lava Cake","Fresh Baked Cookies","Cobbler"]
+}
+}

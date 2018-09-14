@@ -1,0 +1,118 @@
+#boxwrap{
+    display: flex;
+    height: 600px;
+    width: 1500px;
+}
+#box1 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box2 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box3 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box4{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E76E34;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box5{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #8d908b;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box6 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #00d6b2;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box7{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    padding:5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0 #999999;
+    border-radius: 10%;
+}
+#box1:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+#box2:hover{
+    background-color: pink;
+    border: dashed white;
+}
+#box3:hover{
+    background-color: purple;
+    box-shadow: none;
+}
+#box4:hover{
+    height: 100px;
+    background-color: #111111;
+}
+#box5:hover{
+    width: 100px;
+    background-color: #8a6343;
+}
+#box6:hover{
+    background-color: silver;
+    padding: 10px;
+    margin: 10px;
+}
+#box7:hover{
+    opacity: .1;
+    background-color: darkgreen;
+}

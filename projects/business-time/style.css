@@ -1,0 +1,140 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header{
+    margin: 10px;
+    color: #87ceeb;
+    float: left;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 2px 2px dimgrey;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 15px;
+    width: auto;
+}
+
+
+
+/*Navigation*/
+
+form button:hover{
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #87ceeb;
+    padding: 15px;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Paragraphs*/
+
+h1{
+    margin: 120px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'muli', sans-serif;
+}
+
+/*Images*/
+.socialwrapper{
+    width: 45px;
+    height: 15px;
+    position: fixed;
+    padding-left: 15px;
+    padding-top: 60px;
+}
+/*Writing*/
+.bodycontainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-left: 550px;
+    width: 750px;
+
+}
+
+p{
+    text-align: center;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'muli', sans-serif;
+
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+/*Media position*/
+
+@media (max-width: 550px) {
+    .navbar{
+        height: auto;
+        width: auto;
+    }
+    .headerclass{
+        height: 240px;
+    }
+    .bodycontainer{
+        height: auto;
+        width: auto;
+        padding-left: 20px;
+    }
+    .socialwrapper{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
