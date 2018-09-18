@@ -1,0 +1,17 @@
+body{
+    background-color: silver;
+}
+header{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #aaaaaa;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0 #999999;
+}
