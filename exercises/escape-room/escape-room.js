@@ -1,18 +1,19 @@
-var readlineSync = require('readline-sync');
+const readlineSync = require('readline-sync');
 
-var options = ['Look Around','Open Door','Put Hand in Hole'];
-var hasKey = false;
-var endGame = "Congrats for winning the Game";
-var handHole = "While that wasn't the best idea, now you're stuck!!!";
-var tryDoor = false;
-var lookAround = false;
-var y = true;
+const options = ['Look Around','Open Door','Put Hand in Hole'];
+let hasKey = false;
+const endGame = "Congrats for winning the Game";
+const handHole = "While that wasn't the best idea, now you're stuck!!!";
+let tryDoor = false;
+let lookAround = false;
+const y = true;
 
+let pickUp;
 while(tryDoor === false){
-    var selection = readlineSync.keyInSelect(options, 'What do you want to do?');
+    const selection = readlineSync.keyInSelect(options, 'What do you want to do?');
     if (selection === 0){
         console.log("You've looked around and have spotted the key,");
-        var pickUp = readlineSync.keyInYN('Do you want to pick up this key?');
+        pickUp = readlineSync.keyInYN('Do you want to pick up this key?');
         if (pickUp === y){
             console.log("You've found the key!!");
             hasKey = true;

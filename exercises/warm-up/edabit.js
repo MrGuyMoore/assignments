@@ -3,7 +3,7 @@ function  hello() {
 
 }
 
-var num = 0
+let num = 0;
 
 function lessThanOrEqualToZero(num) {
     if (num <= 0) {
@@ -26,3 +26,4 @@ function Go(num){
     return (dash);
 }
     console.log (Go(5));
+

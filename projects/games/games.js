@@ -1,29 +1,29 @@
-var rs = require('readline-sync');
+const rs = require('readline-sync');
 
 // Var used here
-var n = false;
-var endGame = "You've made it out alive, don't be too scared to come again!!";
-var playerWon = false;
-var y = true;
-var combatChoice = false;
-var mainOptions = ['Walk', 'Check inventory', 'Use item from inventory'];
-var healthPotion = {
+const n = false;
+const endGame = "You've made it out alive, don't be too scared to come again!!";
+let playerWon = false;
+const y = true;
+let combatChoice = false;
+const mainOptions = ['Walk', 'Check inventory', 'Use item from inventory'];
+const healthPotion = {
     name: 'Health Potion',
     value: 20,
 };
-var dullDagger = {
+const dullDagger = {
     name: 'Dull Dagger',
     attackPower: 45,
 };
-var longSword = {
+const longSword = {
     name: 'Long Sword',
     attackPower: 55,
 };
-var gameOverStone = {
+const gameOverStone = {
     name: 'Game Over Stone',
     value: true,
 };
-var player = {
+const player = {
     name: '',
     hitPoints: 200,
     attackPower: 15,
@@ -34,8 +34,8 @@ var player = {
 //Functions made here
 
 function Enemy(){
-    var name = ['Reaper','Daedra','Ogre','Inferi','Twinrova','Menethi'];
-    var items = [healthPotion.name, dullDagger.name, longSword.name, gameOverStone.name];
+    let name = ['Reaper', 'Daedra', 'Ogre', 'Inferi', 'Twinrova', 'Menethi'];
+    const items = [healthPotion.name, dullDagger.name, longSword.name, gameOverStone.name];
     this.items = items[Math.floor(Math.random() * items.length)];
     this.name = name[Math.floor(Math.random() * name.length)];
     this.hitPoints = Math.floor(Math.random()* 26 + 70);
@@ -43,20 +43,21 @@ function Enemy(){
 }
 
 player.name = rs.question('\n Player Name ..... : ');
-console.log('Welcome '+player.name+' to the world of Eden');
+console.log(`Welcome to the world of EverClear ${player.name}.`);
 
 // My while loop
 
 while (playerWon === false) {
     console.log('What would you like to do? ');
-    var choice = rs.keyInSelect(mainOptions, '\n Please pick a option ... ');
+    const choice = rs.keyInSelect(mainOptions, '\n Please pick a option ... ');
     if (choice === 0) {
-        var enemy = new Enemy();
-        console.log("A wild "+enemy.name+" appeared!!!");
-        combatChoice = rs.keyInYN('Would you like to fight this wild '+enemy.name);
+        // const bumpsIntoBand = Math.random() < .33333;
+        const enemy = new Enemy();
+        console.log(`You've run into ${enemy.name}`);
+        combatChoice = rs.keyInYN(`Would you like to fight this wild ${enemy.name}`);
         if(combatChoice === y){
             combatChoice = true;
-            console.log("You've decided to combat "+enemy.name);
+            console.log(`So you've decided to temp fate and fight ${enemy.name} please be careful`);
             while(enemy.hitPoints > 0 && player.hitPoints > 0){
                 enemy.hitPoints -= player.attackPower;
                 player.hitPoints -= enemy.attackPower;
@@ -66,13 +67,13 @@ while (playerWon === false) {
                 break;
             }else{
                 player.inventory.push(enemy.items);
-                console.log("Congrats you've defeated the wild "+enemy.name);
-                console.log(enemy.name+" dropped "+enemy.items+" please check your inventory");
+                console.log(`Congratz you've defeated ${enemy.name} you've gotten a reward.`);
+                console.log(`${enemy.name} has dropped ${enemy.items} and it's now in your inventory.`);
                 player.fightsWon +=1;
             }
-            if (player.fightsWon >= 3){
+            if (player.fightsWon >= 10){
                 playerWon = true;
-                console.log(endGame)
+                console.log(`You've chosen to use a item to beat the game, next time use skill!!`)
             }
         }
     }else if(choice === 1){
@@ -98,7 +99,7 @@ while (playerWon === false) {
         (player.inventory[userItem] === "Game Over Stone")
             playerWon = true;
             console.log(endGame);
-    var index = player.inventory.indexOf(player.inventory);
+    const index = player.inventory.indexOf(player.inventory);
     if (index !== -1) player.inventory.splice(player.inventory, 1);
 }
 

@@ -1,9 +1,10 @@
 function countCode(str) {
 
-    for (var i = 0; i < str.length; i++){
+    let output;
+    for (let i = 0; i < str.length; i++){
         if(str[i] === 'code'){
-            str = output;
-            var output = '0';
+            str[i] = output;
+            output = '0';
             output = +1;
         }
         output += 1
