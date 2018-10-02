@@ -1,0 +1,75 @@
+/*Body */
+body {
+  font-family: sans-serif;
+}
+
+/*Container*/
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+}
+.box-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    width: 400px;
+    height: 400px;
+    align-content: center;
+}
+
+/*Box*/
+.Box1{
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px 0 #999999;
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+ }
+.Box2{
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px 0 #999999;
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+}
+.Box3{
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px 0 #999999;
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+
+}
+.Box4{
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px 0 #999999;
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+}
+/*Button Color*/
+.whiteButton{
+    background-color: white;
+}
+.blackButton{
+    background-color: black;
+}
+.purpleButton{
+    background-color: purple;
+}
+.blue1Button{
+    background-color: blue;
+}
+.blue2Button{
+    background-color: blue;
+}
+
+/*Button Size*/
+.box{
+    padding: 20px;
+}
