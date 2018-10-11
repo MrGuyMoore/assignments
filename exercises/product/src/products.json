@@ -1,0 +1,19 @@
+[{
+        "id": "A",
+        "product": "Coffee Mug",
+        "price": 300,
+        "description": "Space-age aluminium"
+    },
+    {
+        "id": "B",
+        "product": "Fire Extinguisher",
+        "price": 100,
+        "description": "Puts out flaming reverse-entropied coffee"
+    },
+    {
+        "id": "C",
+        "product": "Neutral-reversed-direction forward-facing osmosis H30",
+        "price": 1,
+        "description": "Goes in the fire extinguisher"
+    }
+]
