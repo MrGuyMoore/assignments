@@ -2,7 +2,7 @@ import React from 'react'
 
 function Movie() {
     return(
-        <div>Place Holder here</div>
+        <div className={'moviestyle'}>Place Holder here</div>
     )
 }
 

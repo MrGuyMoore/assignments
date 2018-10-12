@@ -1,5 +1,5 @@
 /*Google Fonts Here*/
-@import url('https://fonts.googleapis.com/css?family=Anton|Ultra|Devan&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Anton|K2D:300,400,500,700|Roboto:300,400,500,700|Ultra');
 
 /*Body Styling*/
 *{
@@ -12,7 +12,7 @@
 }
 body{
     background: linear-gradient(to bottom, #232526, #414345);
-    font-family: 'Anton', sans-serif;
+    font-family: Ultra, sans-serif;
     width: 100%;
     height: 100%;
 
@@ -29,23 +29,6 @@ body{
     width: 100%;
     grid-template-rows: repeat(6,1fr);
     grid-template-columns: repeat(6,1fr);
+    grid-gap: 1px;
 }
 
-/*Header Styling*/
-.header{
-    height: 15%;
-    width: 100%;
-}
-header{
-    font-family: 'Bevan',serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: #660000;
-    text-shadow: black 3px 3px 3px;
-}
-
-/*Navbar Styling*/
-.navbar{
-    height: 5%;
-    width: 100%;
-}

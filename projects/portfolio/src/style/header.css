@@ -1,0 +1,8 @@
+/*Header Styling*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 15%;
+    width: 100%;
+}

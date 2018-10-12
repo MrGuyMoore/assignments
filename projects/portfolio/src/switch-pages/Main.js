@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
     return(
-        <div className={'MainBody'}>
+        <div className={'mainbody'}>
             <div className={'SectionOne'}>
                 <p>Content here</p>
             </div>

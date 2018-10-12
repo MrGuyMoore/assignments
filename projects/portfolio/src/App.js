@@ -12,10 +12,22 @@ import About from './switch-pages/About'
 import Contact from './switch-pages/Contact'
 import Movie from './switch-pages/Movie'
 import TV from './switch-pages/TV'
+import Login from './switch-pages/Login'
+import Registration from './switch-pages/Registration'
 
 // Imported Stylesheets
 import './style/index.css'
-
+import './style/header.css'
+import './style/navbar.css'
+import './style/login.css'
+import './style/footer.css'
+import './style/sidebar.css'
+import './style/main.css'
+import './style/movie.css'
+import './style/contact.css'
+import './style/about.css'
+import './style/tv.css'
+import './style/registration.css'
 // Main App
 
 function App() {
@@ -24,7 +36,6 @@ function App() {
             <NavBar/>
             <Header/>
             <div className={'bodywrapper'}>
-                <Main/>
                 <Sidebar/>
                 <Footer/>
                 <Switch>
@@ -33,6 +44,8 @@ function App() {
                     <Route path='/contact' component={Contact}/>
                     <Route path='/movie' component={Movie}/>
                     <Route path='/tv' component={TV}/>
+                    <Route exact path='/login' component={Login}/>
+                    <Route exact path='/registration' component={Registration}/>
                 </Switch>
             </div>
         </div>
