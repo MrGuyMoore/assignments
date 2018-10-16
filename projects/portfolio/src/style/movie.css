@@ -4,11 +4,35 @@
 /*Movie Section Styling*/
 .moviestyle{
     grid-column: 2/6;
-    grid-row: 1/6;
+    /*grid-row: 1/6;*/
+    display: flex;
     align-content: center;
     justify-content: center;
-    display: flex;
     background-color: #83878A;
     box-sizing: border-box;
     border: 1px solid whitesmoke;
+    /*overflow: hidden;*/
+
+}
+
+/*Link Styling*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Image Styling*/
+.movietitle{
+    display: inline-block;
+    padding: 0 36px 36px 36px;
+}
+
+/*Title Styling*/
+.linkimg{
+    width: 195px;
+    text-align: center;
+}
+
+.moviealign{
+    text-align: center;
 }

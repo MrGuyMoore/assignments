@@ -1,10 +1,15 @@
 import React from 'react'
+import 'react'
 
 
 function Sidebar() {
     return(
         <div className={'sidebar'}>
-            Side bar here
+
+
+            <form id='shrink'>
+                <input type='search' placeholder='Search'/>
+            </form>
         </div>
     )
 }

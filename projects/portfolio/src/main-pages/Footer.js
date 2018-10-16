@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import {SocialIcon} from 'react-social-icons'
 
 
@@ -11,7 +10,7 @@ function Footer() {
                     <SocialIcon url="http://linkedin.com/in/guypmoore" color='black'/>
                     <SocialIcon url="http://www.facebook.com/guy.p.moore" color='black'/>
                     <SocialIcon url="https://github.com/MrGuyMoore" color='black'/>
-                    <SocialIcon url= 'guy.moore.jr@gmail.com' network ="email" color='black'/>
+                    <SocialIcon url= 'mailto:guy.moore.jr@gmail.com' network ="email" color='black'/>
                 </div>
 
                 </div>

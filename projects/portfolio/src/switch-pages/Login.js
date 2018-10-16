@@ -10,14 +10,11 @@ export default class Login extends  Component{
 
         // Set state for e-mail and password
         this.state = {
-            email: "",
+            username: "",
             password: "",
+            auth: false,
+            err: false,
         };
-    }
-    validateForm(){
-
-        // Setting length for both password and email
-        return this.state.email.length > 4 && this.state.password.length > 5;
     }
     handleChange = event =>{
         // Setting State
@@ -27,21 +24,28 @@ export default class Login extends  Component{
     };
     handleSubmit = event =>{
         event.preventDefault();
-        console.log(localStorage.email)
-        localStorage.setItem('email', JSON.stringify(this.state.email));
-        localStorage.setItem('password', JSON.stringify(this.state.password));
+        // console.log(this.state.username)
+        // console.log(this.state.password)
+        console.log(localStorage.getItem('username'), this.state.username)
+        console.log(localStorage.getItem('password'), this.state.password)
+        // let username = JSON.stringify(localStorage.getItem('username'))
+        if(this.state.username === localStorage.getItem('username')&& this.state.password === localStorage.getItem("password")){
+            return this.props.history.push("/home")
+        }else{
+            this.setState({err: true})
+        }
     };
     render() {
         return (
             <div className={'logstyle'}>
                 <div className="Login">
                     <form onSubmit={this.handleSubmit}>
-                        <FormGroup controlId="email" bsSize="large">
-                            <ControlLabel> Email </ControlLabel>
+                        <FormGroup controlId="username" bsSize="large">
+                            <ControlLabel> Username </ControlLabel>
                             <FormControl
                                 autoFocus
-                                type="email"
-                                value={this.state.email}
+                                type="username"
+                                value={this.state.username}
                                 onChange={this.handleChange}
                             />
                         </FormGroup>
@@ -53,8 +57,9 @@ export default class Login extends  Component{
                                 type="password"
                             />
                         </FormGroup>
-                        <Button className={'button'} block bsSize="large" disabled={!this.validateForm()} type="submit">Login
+                        <Button className={'button'} block bsSize="large"  type="submit">Login
                         </Button>
+                        {this.state.err ? <div>Please enter valid information</div> : null}
                     </form>
                 </div>
             </div>

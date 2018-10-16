@@ -1,6 +1,6 @@
 // React Imports
 import React,{Component} from 'react'
-import createHistory from 'history/createBrowserHistory'
+
 
 // Button & Form Import
 import {Button,FormGroup,FormControl,ControlLabel} from 'react-bootstrap'
@@ -22,7 +22,7 @@ export default class Registration extends  Component{
     validateForm(){
 
         // Setting length for both password, email, first name and last name
-        return this.state.username.length >= 0 && this.state.password.length >= 0 && this.state.fname.length > 0 && this.state.lname.length > 0;
+        return this.state.username.length >= 3 && this.state.password.length >= 6 && this.state.fname.length > 0 && this.state.lname.length > 0;
     }
     handleChange = event =>{
         // Setting State
@@ -33,13 +33,11 @@ export default class Registration extends  Component{
     handleSubmit = event =>{
         event.preventDefault();
         // Saving user informaiton to local storage
-        localStorage.setItem('username', JSON.stringify(this.state.username));
-        localStorage.setItem('password', JSON.stringify(this.state.password));
-        localStorage.setItem('fname', JSON.stringify(this.state.fname));
-        localStorage.setItem('lname', JSON.stringify(this.state.lname));
-        console.log(this.state.password)
-        console.log(this.state.username)
-        if(this.state.password.length >= 5 && this.state.username.length >= 5){
+        localStorage.setItem('username', (this.state.username));
+        localStorage.setItem('password', (this.state.password));
+        localStorage.setItem('fname', (this.state.fname));
+        localStorage.setItem('lname', (this.state.lname));
+        if(this.state.password.length >= 3 && this.state.username.length >= 3){
            return this.props.history.push("/login")
         }else{
             this.setState({err: true})

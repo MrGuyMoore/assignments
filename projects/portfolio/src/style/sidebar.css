@@ -6,10 +6,9 @@
 .sidebar{
     grid-column: 1/2;
     grid-row: 1/6;
-    align-content: center;
-    justify-content: center;
     display: flex;
     background-color: #83878A;
     box-sizing: border-box;
     border: 1px solid whitesmoke;
 }
+

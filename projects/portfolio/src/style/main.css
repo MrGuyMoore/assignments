@@ -5,8 +5,8 @@
 .mainbody{
     grid-column: 2/6;
     grid-row: 1/6;
-    align-content: center;
-    justify-content: center;
+    /*align-content: center;*/
+    /*justify-content: center;*/
     display: flex;
     background-color: #83878A;
     box-sizing: border-box;

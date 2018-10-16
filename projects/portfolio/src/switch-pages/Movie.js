@@ -1,8 +1,11 @@
 import React from 'react'
+import MovieClass from '../api/MovieAPI'
 
 function Movie() {
     return(
-        <div className={'moviestyle'}>Place Holder here</div>
+        <div className={'moviestyle'}>
+      <MovieClass/>
+        </div>
     )
 }
 

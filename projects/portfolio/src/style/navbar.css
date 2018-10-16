@@ -3,6 +3,7 @@
 
 /*Main Navbar*/
 .navbarhome{
+    position: fixed;
     height: 5%;
     width: 100%;
     display: flex;
@@ -53,7 +54,7 @@ a:hover{
     display: flex;
     padding-left: 10px;
 }
-head{
+.navhead{
     position: fixed;
     font-family: 'Bevan',serif;
     font-size: 46px;

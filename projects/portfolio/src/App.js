@@ -39,13 +39,14 @@ function App() {
                 <Sidebar/>
                 <Footer/>
                 <Switch>
-                    <Route exact path='/' component={Main}/>
+                    <Route exact path='/home' component={Main}/>
                     <Route path='/about' component={About}/>
                     <Route path='/contact' component={Contact}/>
                     <Route path='/movie' component={Movie}/>
-                    <Route path='/tv' component={TV}/>
+                    <Route path='/tvshow' component={TV}/>
                     <Route exact path='/login' component={Login}/>
                     <Route exact path='/registration' component={Registration}/>
+
                 </Switch>
             </div>
         </div>

@@ -4,11 +4,28 @@
 /*TV Shows Section Styling*/
 .tvshow{
     grid-column: 2/6;
-    grid-row: 1/6;
+    /*grid-row: 1/6;*/
     align-content: center;
     justify-content: center;
     display: flex;
     background-color: #83878A;
     box-sizing: border-box;
     border: 1px solid whitesmoke;
+    /*overflow: auto;*/
+}
+
+/*Image Styling*/
+.tvtitle{
+    display: inline-block;
+    padding: 0 36px 36px 36px;
+}
+
+/*Title Styling*/
+.tvlink{
+    width: 195px;
+    text-align: center;
+}
+
+.tvalign{
+    text-align: center;
 }

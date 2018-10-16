@@ -1,10 +1,10 @@
 import React from 'react'
-
+import TVClass from "../api/TVAPI"
 
 function TV() {
     return(
         <div className={'tvshow'}>
-            <p>Place holder info </p>
+          <TVClass/>
         </div>
 
     )
