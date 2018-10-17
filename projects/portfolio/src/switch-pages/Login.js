@@ -24,11 +24,6 @@ export default class Login extends  Component{
     };
     handleSubmit = event =>{
         event.preventDefault();
-        // console.log(this.state.username)
-        // console.log(this.state.password)
-        console.log(localStorage.getItem('username'), this.state.username)
-        console.log(localStorage.getItem('password'), this.state.password)
-        // let username = JSON.stringify(localStorage.getItem('username'))
         if(this.state.username === localStorage.getItem('username')&& this.state.password === localStorage.getItem("password")){
             return this.props.history.push("/home")
         }else{
@@ -57,7 +52,7 @@ export default class Login extends  Component{
                                 type="password"
                             />
                         </FormGroup>
-                        <Button className={'button'} block bsSize="large"  type="submit">Login
+                        <Button className={'button'} type="submit">Login
                         </Button>
                         {this.state.err ? <div>Please enter valid information</div> : null}
                     </form>

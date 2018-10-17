@@ -29,3 +29,21 @@ h3{
     transform: scale(1.1);
     color: blue;
 }
+
+/*Media Styling*/
+
+@media (max-width: 900px) {
+    .footer{
+        display: grid;
+        grid-row: 6/7;
+        grid-column: 1/7;
+        justify-content: center;
+        align-content: center;
+        font-family: Anton, serif;
+        color: cornsilk;
+        text-shadow: black 2px 2px 3px;
+        background-color: #83878A;
+        box-sizing: border-box;
+        border: 1px solid whitesmoke;
+    }
+}

@@ -13,7 +13,7 @@ function NavBar() {
                 <Link to={"/tvshow"}>T.V. Shows</Link>
                 </div>
             <div className={'navbar2'}>
-                <Link to={'/login'}>Login In</Link>
+                <Link to={'/login'}>Log In</Link>
                 <Link to={'/registration'}>Register New Account</Link>
                 <Link to={"/contact"}>Contact Us</Link>
                 <Link to={"/about"}>About Us</Link>

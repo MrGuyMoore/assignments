@@ -31,3 +31,15 @@ body{
     grid-template-columns: repeat(6,1fr);
 
 }
+
+/*Media Styling*/
+
+@media (max-width: 900px) {
+    .bodywrapper {
+        display: grid;
+        height: 80%;
+        width: 100%;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+    }
+}

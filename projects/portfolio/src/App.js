@@ -31,6 +31,7 @@ import './style/registration.css'
 // Main App
 
 function App() {
+
     return(
         <div className={'maincontainer'}>
             <NavBar/>

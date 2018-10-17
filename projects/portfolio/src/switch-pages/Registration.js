@@ -82,10 +82,10 @@ export default class Registration extends  Component{
                                 onChange={this.handleChange}
                                 type="password"/>
                         </FormGroup>
-                        <Button className={'button'} block bsSize="large" disabled={!this.validateForm()} type="submit">Register
-                        </Button>
+                        <Button className={'button'} disabled={!this.validateForm()} type="submit">Register
+                        </Button><br/>
                         {this.state.err ? <div>Please enter valid information</div> : null}
-
+                        <Button backgroundColor="transparent" onClick={() => {return this.props.history.push("/login")}}>Log In</Button>
                     </form>
                 </div>
             </div>

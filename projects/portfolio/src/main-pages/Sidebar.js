@@ -6,9 +6,14 @@ function Sidebar() {
     return(
         <div className={'sidebar'}>
 
-
             <form id='shrink'>
-                <input type='search' placeholder='Search'/>
+                <input style={{
+                   fontSize: 25,
+                   display: 'block',
+                    width: '100%',
+                    paddingBottom: 8,
+                    paddingLeft: 8,
+                }} type='search' placeholder='Search'/>
             </form>
         </div>
     )
