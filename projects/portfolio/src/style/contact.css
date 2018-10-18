@@ -1,0 +1,14 @@
+/*Google Fonts Here*/
+@import url('https://fonts.googleapis.com/css?family=Anton|K2D:300,400,500,700|Roboto:300,400,500,700|Ultra');
+
+/*Contact Us Section Styling*/
+.contactus{
+    grid-column: 2/6;
+    grid-row: 1/6;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: #83878A;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+}

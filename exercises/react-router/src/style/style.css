@@ -1,0 +1,96 @@
+/*Google Fonts*/
+@font-face {
+    @import url('https://fonts.googleapis.com/css?family=K2D|Open+Sans|Krub|Playfair+Display:400,700');
+}
+
+/*Body CSS Styling*/
+body{
+    background: linear-gradient(to bottom right, #e3dac9,#ffffff);
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 6px 0 0;
+}
+
+/*Header CSS Styling*/
+.header{
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    font-family: 'K2D', sans-serif;
+    background: linear-gradient(to bottom right,#3e5151,#decba4);
+    flex-direction: column;
+    align-items: center;
+}
+.bodyheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Krub', sans-serif;
+    padding: 10px ;
+    margin: 10px;
+}
+.bodypara{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+/*Nav Bar CSS Styling*/
+.navbar{
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+    font-size: 19px;
+}
+.navbar a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar a:active{
+    color: #e3dac9;
+    opacity: 0.5;
+}
+/*Font CSS Styling*/
+h1{
+    font-size: 65px;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    text-shadow: 3px 3px 3px black;
+}
+h2{
+    display: flex;
+    font-size: 35px;
+    color: #696969;
+}
+h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+h5{
+    display: flex;
+    font-size: 20px;
+}
+
+/*Footer CSS Styling*/
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Link CSS Styling*/
+a{
+    padding: 5px;
+    text-decoration: none;
+}

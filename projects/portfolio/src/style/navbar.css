@@ -1,0 +1,123 @@
+/*Google Fonts Here*/
+@import url('https://fonts.googleapis.com/css?family=Anton|K2D:300,400,500,700|Roboto:300,400,500,700|Ultra');
+
+/*Main Navbar*/
+.navbarhome{
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    background-color: #83878A;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+}
+
+/*Navbar Styling*/
+.navbar{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+.navbar a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Ubuntu, serif;
+    text-shadow: black 2px 2px 3px;
+}
+a:hover{
+    color: wheat;
+}
+/*Navbar 2 Styling*/
+.navbar2{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navbar2 a{
+    margin: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: Ubuntu, serif;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+}
+a:hover{
+    color: #f0ead6 ;
+}
+/*Logo Styling*/
+.logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    padding-left: 10px;
+}
+.navhead{
+    position: fixed;
+    font-family: 'Bevan',serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #660000;
+    text-shadow: black 3px 2px 3px;
+    display: flex;
+    width: 10%;
+    margin-left: 5px;
+    top: -7px;
+}
+
+/*Media Styling*/
+
+@media (max-width: 1371px) {
+    .navbarhome{
+        position: fixed;
+        height: 7%;
+        width: 100%;
+        display: flex;
+        background-color: #83878A;
+        box-sizing: border-box;
+        border: 1px solid whitesmoke;
+    }
+}
+
+@media (max-width: 1106px) {
+    .navbarhome{
+        position: fixed;
+        height: 5%;
+        width: 100%;
+        display: flex;
+        background-color: #83878A;
+        box-sizing: border-box;
+        border: 1px solid whitesmoke;
+    }
+    .logo{
+        display: none;
+    }
+}
+@media (max-width: 950px) {
+    .navbarhome{
+        position: fixed;
+        height: 20%;
+        width: 100%;
+        display: flex;
+        background-color: #83878A;
+        box-sizing: border-box;
+        border: 1px solid whitesmoke;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar2{
+        border-bottom: 1px solid whitesmoke;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,35 @@
+/*Header Styling*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 19.5%;
+    width: 100%;
+    border-bottom: whitesmoke 1px solid;
+}
+h1{
+    color: white;
+    padding-top: 30px;
+    font-size: 100px;
+}
+
+/*Media Styling*/
+
+@media (max-width: 1200px) {
+    h1{
+        color: white;
+        padding-top: 35px;
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1106px) {
+    h1{
+        color:white;
+        padding-top: 90px;
+        font-size: 89px;
+    }
+    h1{
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+[{
+  "id" : "123",
+  "product": "Goomba Removal",
+  "price": 300,
+  "description": "We come in and remove all goomba from your property"
+},
+  {
+    "id" : "234",
+    "product": "Koopa Troopa Removal",
+    "price": 240,
+    "description": "We come in and remove all koopa troopa from your property"
+  },
+  {
+    "id" : "456",
+    "product": "Bowser Removal",
+    "price": 5000,
+    "description": "We tackle this tough guy and drag him kicking and screaming from your place"
+  }
+]

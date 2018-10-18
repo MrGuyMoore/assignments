@@ -1,0 +1,49 @@
+/*Google Fonts Here*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:300,400,500,700|Ultra');
+
+/*Footer Styling*/
+.footer{
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 1/7;
+    justify-content: center;
+    align-content: center;
+    font-family: Anton, serif;
+    color: cornsilk;
+    text-shadow: black 2px 2px 3px;
+    background-color: #83878A;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+}
+h3{
+    font-size: 15px;
+    margin-left: 28px;
+}
+/*Icon Styling*/
+
+.social-icon{
+    display: flex;
+    margin: 2px 8px 0 8px;
+}
+.social-icon:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+/*Media Styling*/
+
+@media (max-width: 900px) {
+    .footer{
+        display: grid;
+        grid-row: 6/7;
+        grid-column: 1/7;
+        justify-content: center;
+        align-content: center;
+        font-family: Anton, serif;
+        color: cornsilk;
+        text-shadow: black 2px 2px 3px;
+        background-color: #83878A;
+        box-sizing: border-box;
+        border: 1px solid whitesmoke;
+    }
+}
