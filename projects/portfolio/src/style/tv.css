@@ -4,6 +4,7 @@
 /*TV Shows Section Styling*/
 .tvshow{
     grid-column: 2/6;
+    grid-row: 1/6;
     align-content: center;
     justify-content: center;
     display: flex;

@@ -1,13 +1,13 @@
 import React from 'react'
 import {withRouter} from 'react-router-dom'
 
-
 function Header(props) {
+
 let banner = '';
     if(props.location.pathname === "/movie"){
-        banner = "Recently Released"
+        banner = "Recently Released Movies"
     }else if(props.location.pathname === "/tvshow"){
-        banner = "Recently Aired"
+        banner = "Recently Aired T.V. Shows"
     }else if(props.location.pathname === "/home"){
         banner = "Welcome to PQM!"
     }else if(props.location.pathname === '/about'){
@@ -17,6 +17,7 @@ let banner = '';
     }else if (props.location.pathname === '/registration'){
         banner = "Please Register Here!"
      }else if(props.location.pathname === '/login'){
+     }else {
         banner = "Please Log In"}
 
     return(

@@ -13,13 +13,12 @@
     border: 1px solid whitesmoke;
 }
 
-
-
 /*Login Styling*/
 @media (max-width: 900px) {
     .logstyle {
         grid-column: 1/7;
     }
+}
 
     @media (min-width: 480px) {
         .Login {
@@ -30,5 +29,15 @@
             margin: 0 auto;
             max-width: 320px;
         }
+    }
+/*Login Styling*/
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
     }
 }

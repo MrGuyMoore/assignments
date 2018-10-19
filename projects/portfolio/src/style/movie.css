@@ -4,6 +4,7 @@
 /*Movie Section Styling*/
 .moviestyle{
     grid-column: 2/6;
+    grid-row: 1/6;
     display: flex;
     align-content: center;
     justify-content: center;
