@@ -38,7 +38,7 @@ export default class Registration extends  Component{
         localStorage.setItem('fname', (this.state.fname));
         localStorage.setItem('lname', (this.state.lname));
         if(this.state.password.length >= 3 && this.state.username.length >= 3){
-           return this.props.history.push("/login")
+                return this.props.history.push("/login")
         }else{
             this.setState({err: true})
         }
