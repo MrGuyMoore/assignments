@@ -38,10 +38,10 @@ engineRouter.route("/:id")
     .delete((req, res) => {
         Engine.findByIdAndDelete(req.params.id, (err, deleteEngine) =>{
             if (err){
-                res.status(400)
+                res.status(400);
                 next(err)
             }else{
-                res.status(204).send()
+                res.status(204).send(deleteEngine)
             }
         })
     })

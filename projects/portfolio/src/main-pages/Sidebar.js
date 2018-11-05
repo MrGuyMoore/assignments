@@ -1,6 +1,4 @@
 import React from 'react'
-import 'react'
-
 
 function Sidebar() {
     return(

@@ -51,7 +51,6 @@ while (playerWon === false) {
     console.log('What would you like to do? ');
     const choice = rs.keyInSelect(mainOptions, '\n Please pick a option ... ');
     if (choice === 0) {
-        // const bumpsIntoBand = Math.random() < .33333;
         const enemy = new Enemy();
         console.log(`You've run into ${enemy.name}`);
         combatChoice = rs.keyInYN(`Would you like to fight this wild ${enemy.name}`);

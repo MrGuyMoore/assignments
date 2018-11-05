@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+    background-color: #FFFFF0;
+    font-family: 'Playfair Display', serif;
+}
+.switchpage{
+    justify-content: center;
+    align-self: center;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.linkimg{
+    display: inline-block;
+    padding: 2px;
+    margin: 12px 22px 10px 22px;
+}
+.title{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: black 1px 1px 1px;
+    box-sizing: border-box;
+}
+.detailalign{
+    text-align: center;
+}
+.socialmedia{
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+}
+.socialmedia:hover{
+    transform: scale(1.1);
+}
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home{
+    text-align: center;
+}
+

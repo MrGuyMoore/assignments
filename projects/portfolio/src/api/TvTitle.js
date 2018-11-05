@@ -9,8 +9,8 @@ function TvShowTitle({tvshow}) {
 
     const linkElements = tvshow.map((tvshow) =>(
         <Link key={tvshow.id} to={`/tvshow/${tvshow.id}`}>
-            <div className={'tvtitle'}><div className={'tvimg'}> <img src={baseUrl+tvshow.poster_path}/></div>
-                <div className={'tvlink'}> {tvshow.name}</div>
+            <div className={'tvtitle'}><div className={'tvimg'}> <img src={baseUrl+tvshow.poster_path}/><br/></div>
+                <br/><div className={'tvlink'}> {tvshow.name}</div>
             </div>
         </Link>
     ));
