@@ -1,0 +1,43 @@
+/*Google Fonts Here*/
+@import url('https://fonts.googleapis.com/css?family=Anton|K2D:300,400,500,700|Roboto:300,400,500,700|Ultra');
+
+/*Main Section Styling*/
+.logstyle{
+    grid-column: 1/7;
+    grid-row: 1/7;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: #83878A;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+}
+
+/*Login Styling*/
+@media (max-width: 900px) {
+    .logstyle {
+        grid-column: 1/7;
+    }
+}
+
+    @media (min-width: 480px) {
+        .Login {
+            padding: 60px 0;
+        }
+
+        .Login form {
+            margin: 0 auto;
+            max-width: 320px;
+        }
+    }
+/*Login Styling*/
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}

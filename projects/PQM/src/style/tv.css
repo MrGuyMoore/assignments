@@ -1,0 +1,62 @@
+/*Google Fonts Here*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:600');
+
+/*TV Shows Section Styling*/
+.tvshow{
+    overflow: scroll;
+    grid-column: 1/7;
+    grid-row: 1/7;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: #83878A;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    font-family: Dosis,sans-serif;
+}
+
+/*Image Styling*/
+.tvtitle{
+    display: inline-block;
+    padding: 0 36px 36px 36px;
+}
+
+/*Title Styling*/
+.tvlink{
+    width: 195px;
+    text-align: center;
+}
+
+.tvalign{
+    text-align: center;
+}
+
+/*TV Media Styling*/
+@media (max-width: 1204px) {
+    .tvtitle{
+        display: inline-block;
+        padding: 0 15px 15px 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .tvtitle{
+        display: inline-block;
+        align-content: center;
+        justify-content: center;
+        padding: 0 4px 4px 35px;
+    }
+    .tvshow {
+        grid-column: 2/7;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 800px) {
+    .tvshow {
+        grid-column: 1/7;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+}

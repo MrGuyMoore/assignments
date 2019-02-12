@@ -1,4 +1,4 @@
 function collectAnimals(arr) {
-    let arr = ['cat','dog', ...addarry];
+    let arry = ['cat','dog', ...addarry];
     let addarry = [''];
 }
